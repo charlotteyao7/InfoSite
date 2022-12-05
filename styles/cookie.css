@@ -26,6 +26,10 @@ body {
     font-weight: bold;
 }
 
+.active-page{
+    color: #f9aa8f;
+}
+
 .flex {
     display: flex;
     flex-direction: row;
