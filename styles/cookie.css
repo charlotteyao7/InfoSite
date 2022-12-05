@@ -7,33 +7,44 @@
 .tertiery-color{
     color: #f9aa8f;
 } */
-body{
-    font-family: 'Enriqueta';
+@font-face {
+    font-family: Enriqueta;
+    src: url(Enriqueta/Enriqueta-Regular.ttf);
+}
+
+body {
+    font-family: Enriqueta;
     background-color: #ffebd3;
 }
-.navigation{
+
+.navigation {
     background-color: #b9dbe7;
 }
-.black{
+
+.black {
     color: black;
     font-weight: bold;
 }
-.flex{
+
+.flex {
     display: flex;
     flex-direction: row;
 }
-.text{
+
+.text {
     width: 60%;
     height: 100%;
     position: relative;
     top: 100px;
 }
-.pictures{
+
+.pictures {
     width: 40%;
     display: flex;
     flex-direction: column;
 }
-.image{
+
+.image {
     width: 100%;
     padding: 20px;
 }
