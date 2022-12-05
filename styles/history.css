@@ -1,0 +1,50 @@
+/* .primary-color{
+    background-color: #ffebd3;
+}
+.secondary-color{
+    color: #b9dbe7;
+}
+.tertiery-color{
+    color: #f9aa8f;
+} */
+@font-face {
+    font-family: Enriqueta;
+    src: url(Enriqueta/Enriqueta-Regular.ttf);
+}
+
+body {
+    font-family: Enriqueta;
+    background-color: #ffebd3;
+}
+
+.navigation {
+    background-color: #b9dbe7;
+}
+
+.black {
+    color: black;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    width: 60%;
+    height: 100%;
+    position: relative;
+    top: 100px;
+}
+
+.pictures {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 100%;
+    padding: 20px;
+}
