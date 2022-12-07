@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Enriqueta;
+    src: url(Enriqueta/Enriqueta-Regular.ttf);
+}
+
+body {
+    font-family: Enriqueta;
+    background-color: #ffebd3;
+    height: 210vh;
+    background-image: url("https://img.freepik.com/free-photo/minimalist-pile-delicious-cookies-copy-space_23-2148654561.jpg?w=1800&t=st=1670272710~exp=1670273310~hmac=e4e1f9af25e52226acaf265e464932ae47c5851aae676cb9f64ec18ad91b6b23");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navigation {
+    background-color: #b9dbe7;
+}
+
+.black {
+    color: black;
+    font-weight: bold;
+}
+
+.active-page{
+    color: #f9aa8f;
+}
+
+.top-content {
+    height: 80vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20vw;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+}
+
+h2 {
+    margin-left: 45%;
+}
+
+img {
+    margin-left: 41%;
+}
+
+p {
+    margin-left: 50%;
+}
