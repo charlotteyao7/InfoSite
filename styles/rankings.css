@@ -1,0 +1,62 @@
+/* .primary-color{
+    background-color: #ffebd3;
+}
+.secondary-color{
+    color: #b9dbe7;
+}
+.tertiery-color{
+    color: #f9aa8f;
+} */
+@font-face {
+    font-family: Enriqueta;
+    src: url(Enriqueta/Enriqueta-Regular.ttf);
+}
+
+
+body {
+    font-family: Enriqueta;
+    background-color: #ffebd3;
+}
+
+.navigation {
+    background-color: #b9dbe7;
+}
+
+.black {
+    color: black;
+    font-weight: bold;
+}
+
+.active-page {
+    color: #f9aa8f;
+}
+
+.flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hstack {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+hr {
+    height: 1px;
+    background: black;
+}
+
+.u {
+    text-decoration: underline;
+}
+
+.p {
+    padding: 20px;
+}
