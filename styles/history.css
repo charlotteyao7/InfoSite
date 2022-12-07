@@ -26,25 +26,37 @@ body {
     font-weight: bold;
 }
 
-.flex {
-    display: flex;
-    flex-direction: row;
+.active-page{
+    color: #f9aa8f;
 }
 
-.text {
-    width: 60%;
-    height: 100%;
-    position: relative;
-    top: 100px;
-}
-
-.pictures {
-    width: 40%;
+.container {
     display: flex;
     flex-direction: column;
 }
+.title{
+    text-align: center;
+}
+hr{
+    height: 5px;
+    background: black;
+}
 
-.image {
-    width: 100%;
-    padding: 20px;
+.arrow{
+    height: 50px;
+}
+
+.carousel img{
+    width: 200px;
+    height: 300px;
+}
+
+.carousel{
+    float: auto;
+    margin: auto;
+}
+
+.tab{
+    display: inline-block;
+    margin-left: 40px;
 }
