@@ -1,0 +1,62 @@
+/* .primary-color{
+    background-color: #ffebd3;
+}
+.secondary-color{
+    color: #b9dbe7;
+}
+.tertiery-color{
+    color: #f9aa8f;
+} */
+@font-face {
+    font-family: Enriqueta;
+    src: url(Enriqueta/Enriqueta-Regular.ttf);
+}
+
+body {
+    font-family: Enriqueta;
+    background-color: #ffebd3;
+}
+
+.navigation {
+    background-color: #b9dbe7;
+}
+
+.black {
+    color: black;
+    font-weight: bold;
+}
+
+.active-page{
+    color: #f9aa8f;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+}
+hr{
+    height: 5px;
+    background: black;
+}
+
+.arrow{
+    height: 50px;
+}
+
+.carousel img{
+    width: 200px;
+    height: 300px;
+}
+
+.carousel{
+    float: auto;
+    margin: auto;
+}
+
+.tab{
+    display: inline-block;
+    margin-left: 40px;
+}
